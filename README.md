@@ -1,2 +1,12 @@
-Words generator from random letters 
-File Slovar.txt is Dictionary of Russian Words. Find dict for your language and change direction in main python file. 
+# Letters2words generator
+## Clone repo
+```
+git clone https://github.com/serebrich/Words_Generator.git
+```
+## use func letters_2_words
+```python
+from refactoring import letters_2_words
+
+print(letters2words('привта'))
+```
+output --> {'три', 'ива', 'при','трип', 'трап', 'пир', 'тир', 'тапир', 'тип', 'пират', 'вар', 'пари', 'аир', 'вир', 'пар', 'пат', 'вира'}
