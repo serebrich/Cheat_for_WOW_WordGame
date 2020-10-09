@@ -2,7 +2,7 @@ import itertools
 import functools
 
 
-def letters2words(letters: str) -> set:
+def letters_2_words(letters: str) -> set:
     final_words = []
 
     def str_combination(word):
