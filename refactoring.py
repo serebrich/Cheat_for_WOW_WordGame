@@ -5,7 +5,7 @@ import functools
 def letters_2_words(letters: str) -> set:
     final_words = []
 
-    def str_combination(word):
+    def str_combination(word: str):
         for n in range(3, len(word) + 1):
             yield from map(
                 functools.partial(str.join, ""), itertools.permutations(word, n)
